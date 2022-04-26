@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("/assets/images/car2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+.container {
+  margin: 20px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation/Header */
+
+.brand {
+  font-size: 1.4rem;
+  color: rgb(39, 39, 39);
+  letter-spacing: 1ch;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  font-size: 1rem;
+  color: rgb(39, 39, 39);
+  border-radius: 12px;
+  padding: 5px 13px;
+  transition: 0.6s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(50, 48, 48, 0.1);
+}
+
+.center {
+  display: flex;
+  gap: 18px;
+}
+
+.right {
+  display: flex;
+  gap: 18px;
+  margin-left: -85px;
+}
+
+/* hero page */
+
+#homepage-hero-title {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 3rem;
+}
+
+.homepage-hero-subtitle {
+  text-align: center;
+  font-weight: 100;
+}
+
+.homepage-hero-subtitle span {
+  border-bottom: solid;
+  border-width: 1px;
+  transition: 0.2s;
+}
+.homepage-hero-subtitle span:hover {
+  border-width: 1.5px;
+}
+
+.homepage-hero-bottom {
+  text-align: center;
+  margin-top: 400px;
+}
+
+#cus-order {
+  background-color: rgba(60, 62, 65, 0.8);
+  color: rgb(223, 223, 223);
+}
+#ex-inv {
+  background-color: rgb(223, 223, 223);
+  color: rgb(39, 39, 39);
+}
+button {
+  width: 250px;
+  border-radius: 15px;
+  padding: 10px 0px;
+  border: none;
+  margin-right: 30px;
+}
