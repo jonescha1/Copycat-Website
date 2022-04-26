@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("/assets/images/car2.jpg");
+  background-image: url("../images/car2.jpg");
   background-position: center;
   background-size: cover;
   height: 90vh;
